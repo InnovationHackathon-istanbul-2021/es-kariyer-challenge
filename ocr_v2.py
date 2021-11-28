@@ -41,7 +41,10 @@ def performOcr(file,extension,page_count):
 if extension.upper() == "DOCX" or extension.upper() == "DOC":
     docx2pdf(file, filename)
     page_count = pdf2jpg(filename+".pdf", filename)
-    performOcr(filename,"jpg",page_count)
+    #performOcr(filename,"jpg",page_count)
+    for i in range(1,page_count):
+        img = filename+str(i)+".jpg"
+        getPlainText(img,filename)
 
 elif extension.upper() == "PDF":
     page_count = pdf2jpg(file, filename)
@@ -50,5 +53,5 @@ elif extension.upper() == "PDF":
         getPlainText(img,filename)
 
 elif extension.upper() == "JPG" or extension.upper() == "JPEG" or extension.upper() == "PNG":
-    performOcr(filename,extension,-1)
+    getPlainText(file,filename)
 
