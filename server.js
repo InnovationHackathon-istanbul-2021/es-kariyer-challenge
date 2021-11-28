@@ -25,26 +25,6 @@ http.createServer(function (req, res) {
 	}catch(err){
 	    var newpath = "./"
 	}
-/*
-	const ocr = spawn('python3', ['ocr_v2.py', newpath]);
-	ocr.on('exit', (exitCode) => {
-
-        if (parseInt(exitCode) !== 0) {
-        //Handle non-zero exit
-            console.log("error")
-        }
-
-        fs.readFile(path+".txt", (err, html) => {
-        console.log(path+".txt");
-        if(err)
-            res.write("Error");
-        else
-            res.write('<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">');
-            res.write(html);
-            res.end();
-    });
-*/
-//    });
 
     const ocr = spawn('python3', ['ocr_v2.py', newpath.slice(2)]);
     ocr.on('exit', (exitCode) => {
