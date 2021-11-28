@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ab5c75e9.chunk.css",
+    "main.js": "/static/js/main.a07cb526.chunk.js",
+    "main.js.map": "/static/js/main.a07cb526.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.ba5dc87b.js",
+    "runtime-main.js.map": "/static/js/runtime-main.ba5dc87b.js.map",
+    "static/css/2.4659568d.chunk.css": "/static/css/2.4659568d.chunk.css",
+    "static/js/2.04f0b9b1.chunk.js": "/static/js/2.04f0b9b1.chunk.js",
+    "static/js/2.04f0b9b1.chunk.js.map": "/static/js/2.04f0b9b1.chunk.js.map",
+    "static/js/3.04398ba7.chunk.js": "/static/js/3.04398ba7.chunk.js",
+    "static/js/3.04398ba7.chunk.js.map": "/static/js/3.04398ba7.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.4659568d.chunk.css.map": "/static/css/2.4659568d.chunk.css.map",
+    "static/css/main.ab5c75e9.chunk.css.map": "/static/css/main.ab5c75e9.chunk.css.map",
+    "static/js/2.04f0b9b1.chunk.js.LICENSE.txt": "/static/js/2.04f0b9b1.chunk.js.LICENSE.txt",
+    "static/media/erisilebilir.1685374b.jpeg": "/static/media/erisilebilir.1685374b.jpeg",
+    "static/media/eskariyer.adc880e1.png": "/static/media/eskariyer.adc880e1.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ba5dc87b.js",
+    "static/css/2.4659568d.chunk.css",
+    "static/js/2.04f0b9b1.chunk.js",
+    "static/css/main.ab5c75e9.chunk.css",
+    "static/js/main.a07cb526.chunk.js"
+  ]
+}
